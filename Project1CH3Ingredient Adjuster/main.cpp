@@ -22,5 +22,10 @@ int main()
 	requiredSugar = sugarperCookie * desiredYield;
 	requiredButter = butterperCookie * desiredYield;
 	requiredFlour = flourperCookie * desiredYield;
+
+	cout << "\nTo make " << desiredYield << " cookies, you will need:\n";
+	cout << requiredSugar << " cups of sugar\n";
+	cout << requiredButter << " cups of butter\n";
+	cout << requiredFlour << " cups of flour\n";
 	return 0;
 }
