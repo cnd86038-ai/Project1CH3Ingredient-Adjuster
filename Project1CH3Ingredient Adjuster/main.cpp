@@ -14,5 +14,13 @@ int main()
 
 	cout << "How many cookies do you want to make? ";
 	cin >> desiredYield;
+
+	sugarperCookie = SUGAR / RECIPE_YIELD;
+	butterperCookie = BUTTER / RECIPE_YIELD;
+	flourperCookie = FLOUR / RECIPE_YIELD;
+
+	requiredSugar = sugarperCookie * desiredYield;
+	requiredButter = butterperCookie * desiredYield;
+	requiredFlour = flourperCookie * desiredYield;
 	return 0;
 }
